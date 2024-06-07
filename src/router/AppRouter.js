@@ -1,17 +1,19 @@
-// import { Route, Routes } from 'react-router-dom'
-// import {Login} from '../Login.js'
-// import {App} from '../App.js'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import App from "../App"
+import Login from "../Login"
 
-// export const AppRouter = () => {
-//   return (
 
-//   <>
+export const AppRouter = () => {
+  return (
 
-//     <Routes>
-//         <Route path="/" element ={<App/>}></Route>
-//         <Route path="/login" element ={<Login/>}></Route>
-//     </Routes>
+  <>
 
-//   </>
-//   )
-// }
+    <Routes>
+        <Route path="/" element ={<Navigate to="movies"/>}></Route>
+        <Route path="/movies" element ={<App/>}></Route>
+        <Route path="/login" element ={<Login/>}></Route>
+    </Routes>
+
+  </>
+  )
+}
