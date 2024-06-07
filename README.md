@@ -1,3 +1,24 @@
+# Hub de entretenimiento
+# Mayra Guadalupe Arias López
+
+# 1. Resumen
+
+# 2. Requerimientos técnicos
+
+# 3. ¿Cómo instalar?
+ 
+# 4. Capturas de pantalla (5)
+
+# 5 ¿Cómo se trabajó? Procedimiento que se hizo
+
+# 6 Una tabla con el sprint review
+
+| Qué salió bien | Que puedo hacer diferente | Que no salió bien
+-----------------------------------------------------------------
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
