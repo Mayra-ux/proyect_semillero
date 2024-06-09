@@ -54,7 +54,7 @@ const Login = () => {
                     },
                   ]}
                 >
-                  <b><font size="20" style={{ color: '#FFFFFF' }}>Login</font></b>
+                  <b><font size="20" style={{ color: 'black' }}>Login</font></b>
                   <Input
                     prefix={<UserOutlined className="site-form-item-icon" />}
                     placeholder="user@example.com"
